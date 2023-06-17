@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import colors from '../src/color-data.json'
-import ColorProvider from './components/ColorProvider';
+import {ColorProvider} from './components/ColorProvider';
 
 export const ColorContext = createContext();
 

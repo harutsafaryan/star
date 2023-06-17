@@ -1,6 +1,6 @@
 import React from "react";
 import Color from "./Color";
-import { useColors } from "./UseColors";
+import { useColors } from "./ColorProvider";
 
 export default function ColorList() {
 const {colors} = useColors()

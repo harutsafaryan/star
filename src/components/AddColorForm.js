@@ -1,8 +1,9 @@
 import { useRef, useState } from "react";
 import { useInput } from "./useInput";
-import { useColors } from "./UseColors";
+import { useColors } from "./ColorProvider"
 
-export default function AddColorForm({ onNewColor = f => f }) {
+
+export default function AddColorForm() {
     const [titleProps, resetTitle] = useInput("")
     const [colorProps, resetColor] = useInput("#00000");
     const {addColor} = useColors();
